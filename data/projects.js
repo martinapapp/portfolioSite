@@ -1,0 +1,50 @@
+export const projects = [
+  {
+    title: 'Print Forge',
+    image: 'images/projects/print-forge.png',
+    description: 'A community-driven platform for browsing and sharing 3D printing files.',
+    tech: ['React', 'Next', 'TypeScript', 'Tailwind'],
+    live: 'https://printforge-production-fb10.up.railway.app/',
+    github: 'https://github.com/martinapapp/printForge',
+  },
+  {
+    title: 'Dashboard',
+    image: 'images/projects/dashboard-chrome-extension.png',
+    description: 'A custom Chrome Extension that replaces the New Tab page with a real-time productivity dashboard, integrating weather, time, and live crypto data via async API calls.',
+    tech: ['Chrome Extension', 'Javascript', 'Rest API', 'Manifest V3'],
+    live: 'https://chromewebstore.google.com/detail/personal-dashboard/dheckdggciiagnoejlabgbfacgbbadhj',
+    github: 'https://github.com/martinapapp/dashboard',
+  },
+  {
+    title: 'Sales Dashboard',
+    image: 'images/projects/sales-dashboard.png',
+    description: 'A full-stack sales dashboard where reps log deals and admins monitor live team performance, built with React and Supabase featuring real-time updates, role-based access control, and PostgreSQL triggers.',
+    tech: ['JavaScript', 'PostgreSQL', 'Data visualization', 'Supabase', 'React'],
+    live: 'https://sales-dashboard-metrics.netlify.app/signin',
+    github: 'https://github.com/martinapapp/salesDashboard',
+  },
+  {
+    title: 'Spiral Sounds',
+    image: 'images/projects/spiral-sounds.png',
+    description: 'A full-stack vinyl record store with browsing, genre filtering, and cart management, built with Node.js, Express, and SQLite featuring session-based authentication and secure password hashing.',
+    tech: ['Express', 'SQLite', 'bcryptjs'],
+    live: 'https://spiralsounds-production-3337.up.railway.app/',
+    github: 'https://github.com/martinapapp/spiralSounds',
+  },
+  {
+    title: 'From The Other Side',
+    image: 'images/projects/from-the-other-side.png',
+    description: 'A community-driven web app where users can submit, browse, and discover paranormal sighting reports from around the world, with live news updates streamed directly to the page.',
+    tech: ['Node', 'SSE', 'RESTAPI', 'sanitize-html'],
+    live: 'https://fromtheotherside-production.up.railway.app/',
+    github: 'https://github.com/martinapapp/fromTheOtherSide',
+  },
+  {
+    title: 'Pet Shelter',
+    image: 'images/projects/pet-shelter.png',
+    description: 'RESTful API in Express & TypeScript for a pet shelter. Features multi-parameter filtering, custom auth middleware, and MVC architecture with fully typed generics.',
+    tech: ['TypeScript', 'REST API', 'Express'],
+    live: 'https://pet-shelter-yeuq.onrender.com/pets',
+    github: 'https://github.com/martinapapp/petShelterAPI',
+  }
+]
