@@ -91,7 +91,7 @@ contactItems.forEach(item => {
   a.rel = 'noopener noreferrer'
   a.innerHTML = `
     <span class="contact-icon">${item.svg}</span>
-    <p>${item.href}</p>
+    <p>${item.address}</p>
   `
   grid.appendChild(a)
 })
