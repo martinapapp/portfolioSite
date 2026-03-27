@@ -33,13 +33,13 @@ A clean, responsive portfolio to present my work and contact information. The ma
 
 | No | File Name | What it does |
 | -- | --------- | ------------ |
-| 1 | `index.html` | Main HTML structure — navbar, sections, carousel shell |
-| 2 | `index.js` | All JS logic — carousel, contact grid, touch/keyboard events |
+| 1 | `index.html` | Main HTML structure - navbar, sections, carousel shell |
+| 2 | `index.js` | All JS logic - carousel, contact grid, touch/keyboard events |
 | 3 | `style.css` | All styles including responsive media queries |
-| 4 | `data/projects.js` | Project data array — title, description, tech, links |
+| 4 | `data/projects.js` | Project data array - title, description, tech, links |
 | 5 | `data/contactItems.js` | Contact links with inline SVG icons |
-| 6 | `public/images/` | Static assets — background, project screenshots, icons |
-| 7 | `netlify.toml` | Netlify build config — points to Vite's `dist/` output |
+| 6 | `public/images/` | Static assets - background, project screenshots, icons |
+| 7 | `netlify.toml` | Netlify build config - points to Vite's `dist/` output |
 | 8 | `package.json` | Project scripts and Vite dependency |
 
 ### Build
